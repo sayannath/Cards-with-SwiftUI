@@ -15,6 +15,12 @@
 		DDF13E8C246B0602004424A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF13E8A246B0602004424A0 /* LaunchScreen.storyboard */; };
 		DDF13E97246B0602004424A0 /* stackAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13E96246B0602004424A0 /* stackAppsTests.swift */; };
 		DDF13EA2246B0602004424A0 /* stackAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13EA1246B0602004424A0 /* stackAppsUITests.swift */; };
+		DDF13EB0246B08DD004424A0 /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13EAF246B08DD004424A0 /* card.swift */; };
+		DDF13EB2246B1CAF004424A0 /* courseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13EB1246B1CAF004424A0 /* courseModel.swift */; };
+		DDF13EB4246B1E3E004424A0 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13EB3246B1E3E004424A0 /* CourseList.swift */; };
+		DDF13EB6246B2694004424A0 /* testModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13EB5246B2694004424A0 /* testModel.swift */; };
+		DDF13EB8246B26D4004424A0 /* testList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13EB7246B26D4004424A0 /* testList.swift */; };
+		DDF13EBA246B2862004424A0 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13EB9246B2862004424A0 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		DDF13E9D246B0602004424A0 /* stackAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF13EA1246B0602004424A0 /* stackAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackAppsUITests.swift; sourceTree = "<group>"; };
 		DDF13EA3246B0602004424A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF13EAF246B08DD004424A0 /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		DDF13EB1246B1CAF004424A0 /* courseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseModel.swift; sourceTree = "<group>"; };
+		DDF13EB3246B1E3E004424A0 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		DDF13EB5246B2694004424A0 /* testModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testModel.swift; sourceTree = "<group>"; };
+		DDF13EB7246B26D4004424A0 /* testList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testList.swift; sourceTree = "<group>"; };
+		DDF13EB9246B2862004424A0 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				DDF13E8A246B0602004424A0 /* LaunchScreen.storyboard */,
 				DDF13E8D246B0602004424A0 /* Info.plist */,
 				DDF13E87246B0602004424A0 /* Preview Content */,
+				DDF13EAF246B08DD004424A0 /* card.swift */,
+				DDF13EB1246B1CAF004424A0 /* courseModel.swift */,
+				DDF13EB3246B1E3E004424A0 /* CourseList.swift */,
+				DDF13EB5246B2694004424A0 /* testModel.swift */,
+				DDF13EB7246B26D4004424A0 /* testList.swift */,
+				DDF13EB9246B2862004424A0 /* test.swift */,
 			);
 			path = stackApps;
 			sourceTree = "<group>";
@@ -268,8 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDF13E80246B0600004424A0 /* AppDelegate.swift in Sources */,
+				DDF13EB2246B1CAF004424A0 /* courseModel.swift in Sources */,
+				DDF13EB6246B2694004424A0 /* testModel.swift in Sources */,
 				DDF13E82246B0600004424A0 /* SceneDelegate.swift in Sources */,
+				DDF13EBA246B2862004424A0 /* test.swift in Sources */,
 				DDF13E84246B0600004424A0 /* ContentView.swift in Sources */,
+				DDF13EB8246B26D4004424A0 /* testList.swift in Sources */,
+				DDF13EB4246B1E3E004424A0 /* CourseList.swift in Sources */,
+				DDF13EB0246B08DD004424A0 /* card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
